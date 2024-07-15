@@ -1,0 +1,52 @@
+/* Set the font for the body and center text */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    background-color: #f0f0f0; /* Set a light background color */
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Set height to full viewport height */
+}
+
+/* Style the container */
+.container {
+    background-color: rgba(255, 255, 255, 0.8); /* Set a semi-transparent background */
+    padding: 20px; /* Add padding inside the container */
+    border-radius: 10px; /* Round the corners of the container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+    text-align: center; /* Center text inside the container */
+}
+
+/* Style input and button elements */
+input, button {
+    padding: 10px; /* Add padding inside input and button */
+    margin: 10px; /* Add margin outside input and button */
+    font-size: 16px; /* Set font size for input and button */
+}
+
+/* Style the result div */
+#result {
+    margin-top: 20px; /* Add margin above the result */
+    font-weight: bold; /* Make the result text bold */
+}
+
+/* Style the button element */
+button {
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+/* Style the image container */
+#imageContainer {
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    margin-top: 20px; /* Add margin above the image container */
+}
+
+/* Style the image element */
+img {
+    width: 200px; /* Set the width of the image */
+    height: auto; /* automatically adjust the height of image element */
+

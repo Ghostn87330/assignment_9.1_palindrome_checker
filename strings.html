@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!-- Specifies the character encoding for the HTML document -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ensures proper rendering on different devices -->
+    <title>Palindrome Checker</title> <!-- Title of the webpage -->
+    <link rel="stylesheet" href="styles.css"> <!-- Link to the external CSS file -->
+</head>
+<body>
+    <!-- Container for the palindrome checker elements -->
+    <div class="container">
+        <!-- Main heading of the page -->
+        <h1>Palindrome Checker</h1>
+        <!-- Instruction for the user -->
+        <p>Enter a word or phrase to find out if it is a palindrome:</p>
+        <!-- Input field for the user to enter text -->
+        <input type="text" id="inputString" placeholder="Enter word or phrase">
+        <!-- Button to trigger palindrome check -->
+        <button onclick="checkPalindrome()">Check</button>
+        <!-- Div to display the result -->
+        <div id="result"></div>
+        <!-- Div to contain the result image -->
+        <div id="imageContainer">
+            <!-- Image element, initially hidden -->
+            <img id="palindromeImage" src="" alt="" style="display: none;">
+        </div>
+        <!-- Button to reset input, initially hidden -->
+        <button id="resetButton" onclick="resetInput()" style="display: none;">Enter Another Word or Phrase</button>
+    </div>
+    <!-- Link to the external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
